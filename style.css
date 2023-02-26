@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;800&display=swap');
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Hanken Grotesk';
+    font-size: 20px;
+}
+.summary {
+    overflow: hidden;
+    margin: 0 auto;
+} 
+@media only screen and (min-width:1300px ){
+    .container {
+        margin: 100px 350px;  
+    }
+    .result{
+        border-radius: 25px;
+    }
+    .score {
+        padding: 60px;
+    }
+    .summary {
+        display: flex;
+        flex-direction: row;
+        border-radius: 25px;
+    }
+}
+.result {
+    padding: 30px;
+    height: auto;
+    width:100%;
+    font-weight: 800px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    background-image: linear-gradient(hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%));
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#level {
+    color: white;
+}
+.summary {
+    height:100%;
+    width:100%;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(145, 142, 142);
+}
+.score {
+    margin: 0 auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)) ;
+}
+#n76 {
+    font-weight: 800;
+    font-size:60px;
+    color: white;
+}
+.box{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 14px;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+.boxes {
+    padding: 50px ;
+}
+.reaction{
+    color:hsla(0, 100%, 67%, 0.8) ;
+    background-color:hsla(0, 100%, 67%, 0.1) ;
+}
+.memory {
+    color:hsla(39, 100%, 56%, 0.8) ;
+    background-color:hsla(39, 100%, 56%, 0.1) ;
+}
+.verbal {
+    color: hsla(166, 100%, 37%, 0.8);
+    background-color:hsla(166, 100%, 37%, 0.1) ;
+}
+.visual {
+    color: hsla(234, 85%, 45%, 0.8);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+button {
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 45px;
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color:hsl(224, 30%, 27%) ;
+    border: none;   
+}
+button:active {
+    background-image: linear-gradient(rgb(105, 61, 226), hsla(241, 84%, 60%, 0.787)) ;
+}
+#level {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 24px;
+}
+#info {
+    font-size: 18px;
+}
+#score-1 {
+    color:hsl(224, 30%, 27%) ;
+    float: right;
+    margin-right: 10px;
+}
+#name {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.attribution {
+background-color: black;
+color: white;
+}
