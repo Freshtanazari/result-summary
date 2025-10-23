@@ -11,7 +11,7 @@ html,body {
     overflow: hidden;
     margin: 0 auto;
 } 
-@media only screen and (min-width:1300px ){
+@media only screen and (min-width:768px ){
     .container {
         margin: 100px 350px;  
     }
@@ -131,4 +131,5 @@ button:active {
 .attribution {
 background-color: black;
 color: white;
+
 }
